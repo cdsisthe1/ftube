@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ftube</title>
+    <style>
+        body {
+            width: 200px;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 10px;
+            background-color: #fff;
+            color: #000;
+        }
+        #status {
+            color: green;
+        }
+        .button {
+            background-color: #000;
+            color: #fff;
+            border: none;
+            padding: 8px 12px;
+            margin: 8px 0;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
+        .button:hover {
+            box-shadow: 0 7px 14px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+            transform: translateY(-2px);
+        }
+        .button:active {
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.08);
+            transform: translateY(1px);
+        }
+        .title-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .title-container img {
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="title-container">
+        <img src="icon48.png" alt="ftube logo">
+        <h2>ftube</h2>
+    </div>
+    <p id="status">Active</p>
+    <a href="https://github.com/cdsisthe1/ftube" target="_blank" class="button">Visit My GitHub</a>
+    <a href="https://www.paypal.com/donate/?hosted_button_id=R92KGPYHPE3JY" target="_blank" class="button">Donate</a>
+</body>
+</html>
